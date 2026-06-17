@@ -5,10 +5,13 @@
    ii. Open second terminal and run - ngrok http 8000 
 
 3. In Postman 
-   i. method - Post 
+   i. method - Post
+   
    ii - copy endpoint which is till free.app from the second terminal and paste it in postman and add /disney_assistant to it 
-        eg. https://b3f7-2409-40c2-1057-876b-b861-f412-3a7-1cf1.ngrok-free.app/disney_assistant 
-   iii. In Headers add key - Content-Type and value - application/json 
+        eg. https://b3f7-2409-40c2-1057-876b-b861-f412-3a7-1cf1.ngrok-free.app/disney_assistant
+   
+   iii. In Headers add key - Content-Type and value - application/json
+   
    iv. In body: 
     sample 1st question - 
     {
@@ -32,4 +35,4 @@
       "message": "How much more expensive is it?"
     }
 
-4. Verify the logs which is a json structure.
+5. Verify the logs which is a json structure.

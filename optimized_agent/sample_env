@@ -1,0 +1,4 @@
+GOOGLE_GENAI_USE_VERTEXAI=0
+GOOGLE_API_KEY = your_api_key
+
+rename this to .env if not present in your structure

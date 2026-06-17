@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# ADK
+.adk/
+**/.adk/
+
+# Environment
+.env
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Test/cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Databases
+*.db
+*.sqlite3
+
+my_agent/
